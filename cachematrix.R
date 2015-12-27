@@ -42,3 +42,10 @@ cacheSolve<-function(x,...) {
     x$setinv(Inv)                            #store the value of Inv in the cache
     return(Inv)                              #return the value of Inv
 }
+
+
+#Sources visited:
+#    Coursera Forums: https://class.coursera.org/rprog-035/forum/thread?thread_id=448
+#    Coursera Forums: https://class.coursera.org/rprog-035/forum/thread?thread_id=433
+#    Coursera Clarifying Instructions: https://class.coursera.org/rprog-032/forum/thread?thread_id=44#comment-1345
+#    Stackoverflow Forum: http://stackoverflow.com/questions/11995832/inverse-of-matrix-in-r
